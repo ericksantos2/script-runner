@@ -26,10 +26,4 @@
  * ```
  */
 
-// importante
-import 'reset.css';
-
-// estilização
-
-// js
-import './App';
+import './main';
