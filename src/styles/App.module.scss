@@ -1,0 +1,32 @@
+.app {
+  height: 100vh;
+  position: relative;
+  width: 100vw;
+}
+
+.comandos {
+  background-color: #000;
+  color: #fff;
+  display: grid;
+  gap: 0.3rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 100%;
+  width: 100%;
+}
+
+.botoes {
+  display: flex;
+  gap: 0.3rem;
+  margin: 0.5rem;
+  position: fixed;
+  right: 0;
+  top: 0;
+
+  > * {
+    color: white;
+  }
+
+  > *:hover {
+    cursor: pointer;
+  }
+}
