@@ -1,0 +1,17 @@
+.enviar {
+  --button-transparency: .1;
+  background-color: rgba(255, 255, 255, var(--button-transparency));
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-family: var(--font-family);
+  font-size: 0.9rem;
+  min-width: 80px;
+  padding: 0.25rem 0.5rem;
+  width: 30%;
+
+  &:hover {
+    --button-transparency: .15;
+    transition: 350ms;
+  }
+}
