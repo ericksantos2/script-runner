@@ -1,0 +1,26 @@
+.comando {
+  --background-opacity: .1;
+  align-items: center;
+  background-color: rgba(255, 255, 255, var(--background-opacity));
+  display: flex;
+  justify-content: center;
+  position: relative;
+
+  > span {
+    margin: 0.5rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 999;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  &:hover {
+    --background-opacity: .15;
+    cursor: pointer;
+    transition: 250ms;
+  }
+}
