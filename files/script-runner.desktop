@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Encoding=UTF-8
+Name=Script Runner
+Comment=Um programa para facilitar a execução de scripts
+Exec=/opt/script-runner/script-runner
+Icon=/opt/script-runner/images/icon.png
+Terminal=False
