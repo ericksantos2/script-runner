@@ -1,0 +1,12 @@
+.form {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  >h2 {
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+}
+
